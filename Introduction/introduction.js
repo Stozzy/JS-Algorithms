@@ -1,5 +1,7 @@
 function introduction(first, last){
-    return 'Hi! My name is ${first} ${last}';
+    let introTxt = 'Hi, my name is ';
+    
+    return introTxt.concat(first, ' ', last);
 }
 
-console.log(introduction('stan', 'goldyn'))
+console.log(introduction('Stan', 'Goldyn'))
