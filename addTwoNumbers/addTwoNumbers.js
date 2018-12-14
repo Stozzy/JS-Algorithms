@@ -1,5 +1,5 @@
-function addTwoNumbers (x, y) {
-    return x + y;
+function addTwoNumbers(a,b) {
+    return a + b;
 }
 
-console.log(addTwoNumbers(10, 6))
+console.log(addTwoNumbers(10,10))
