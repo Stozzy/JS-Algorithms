@@ -1,0 +1,1 @@
+Write a function that if the number is divisable by 3 returns 'fizz', by 5 returns 'buzz', by both returns 'fizzbuzz', or none ''.
