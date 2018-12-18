@@ -1,18 +1,10 @@
-function reverseString (usrText) {
-    let textToArray = usrText.split('');
-    let reverseTextToArray = textToArray.reverse();
-    let usrTextReverse = reverseTextToArray.join('');
-
-    return usrTextReverse;
+function reverseString (word) {
+    let reverseWord = reverseWord.split('');
+    reverseWord = reverseWord.reverse();
+    reverseWord = reverseWord.join('');
+    // joining methods together to lean up the code...
+    // reverseWord = reverseWord.split('').reverse().join('');
+    return reverseWord;
 }
 
 console.log(reverseString('code'));
-
-function reverseString2 (usrText) {
-    let textToArray = usrText.split('');
-
-    return usrTextReverse = textToArray.join(textToArray.reverse());
-
-}
-
-console.log(reverseString2('code'));
