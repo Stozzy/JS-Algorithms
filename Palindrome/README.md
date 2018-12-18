@@ -1,0 +1,1 @@
+Write a function that takes in a string that ignores special characters and underscores, is case insensitive, ignores spaces and sees if it is a palindrome.
