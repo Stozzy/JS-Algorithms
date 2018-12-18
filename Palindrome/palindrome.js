@@ -1,7 +1,7 @@
-function palindrome (phrase) {
+function isPalindrome (phrase) {
     initialPhrase = phrase.toLowerCase().replace(/[.@$%^&*(/)\,_#!?/]| /gi, '');
     reversePhrase = initialPhrase.split('').reverse().join('');
 
     return (initialPhrase === reversePhrase) ? true : false;
 }
-console.log(palindrome('B/O\B'));
+console.log(isPalindrome('B/O\B'));
