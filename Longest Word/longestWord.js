@@ -1,0 +1,3 @@
+function longestWord (str) {
+    return;
+}
