@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 function longestWord (str) {
     return;
 }
@@ -36,4 +37,3 @@ function longestWordInString (str) {
 }
 
 console.log(longestWordInString('All of your base are belong to us'));
->>>>>>> 347a500589361fba251fa5e982dae74974b2217c
