@@ -1,0 +1,22 @@
+<<<<<<< HEAD
+Write a function that takes in a string and capitalizes the first letter of each word
+
+Hints to solve:
+- split()
+- map()
+- toUpperCase()
+- charAt()
+- concat()
+- slice()
+=======
+Write a function that takes in a string and capitalizes the first letter of each word
+
+Hints to solve:
+- split()
+- map()
+- toUpperCase()
+- charAt()
+- concat()
+- slice()
+>>>>>>> 347a500589361fba251fa5e982dae74974b2217c
+- join()
