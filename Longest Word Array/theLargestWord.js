@@ -1,15 +1,10 @@
 function theLargestWord(str) {
-    let cleanUpStr = str.replace(/[\W_]/g, ' ');    
-    let strArray = cleanUpStr.split(' ');
+    let cleanUpArray = str.replace(/[\W_]/g, ' ').split(' ');
     let longestWord = '';
-    let longestLength = 0;
 
-    for (i = 0; i < strArray.length; i++) {
-        if (longestLength < strArray[i].length) {
-            longestLength = strArray[i].length;
-            longestWord = strArray[i];
-        }
-    }
+    cleanUpArray.forEach((word) => {
+        longestWord = word.length > longestWord.length ? word : longestWord;
+    })
     
     return longestWord;
 }
