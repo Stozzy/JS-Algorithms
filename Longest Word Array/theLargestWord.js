@@ -1,5 +1,5 @@
 function theLargestWord(str) {
-    let cleanUpStr = str.replace(/\W/g, ' ');    
+    let cleanUpStr = str.replace(/[\W_]/g, ' ');    
     let strArray = cleanUpStr.split(' ');
     let longestWord = '';
     let longestLength = 0;
@@ -14,4 +14,4 @@ function theLargestWord(str) {
     return longestWord;
 }
 
-console.log(theLargestWord('Everything,is,awesome'));
+console.log(theLargestWord('All of your base, are belong to us!'));
