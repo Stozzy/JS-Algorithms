@@ -3,7 +3,17 @@ function missingNumber(array) {
         return a-b;
     });
 
-    return sortArray;
+    let missingNumber = 0;
+   
+    sortArray.forEach((number) => {
+        if (number === missingNumber) {
+            missingNumber++;
+        } else if (number != missingNumber) {
+            return missingNumber;
+        }
+    })
+
+    return missingNumber;
 }
 
 console.log(missingNumber([6,5,4,3,2,0]));
