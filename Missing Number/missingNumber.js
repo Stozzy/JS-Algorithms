@@ -1,6 +1,6 @@
 function missingNumber(array) {
-    let sortArray = array.sort((a,b) => {
-        return a-b;
+    const sortArray = array.sort((a, b) => {
+        return a - b;
     });
 
     let missingNumber = 0;
