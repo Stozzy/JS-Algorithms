@@ -8,9 +8,14 @@
 //         firstLetterArray.push(strArray[i].slice(0,1).toUpperCase());
 //         remainingLettersArray.push(strArray[i].slice(1, lengthOfWord));
 //     }
-//    return firstLetterArray;
+//
+//     for (let i = 0; i < firstLetterArray.length; i++) {
+//    	  strOutput += firstLetterArray[i] + remainingLettersArray[i] + ' ';
+//     }
+//
+//    return strOutput;
 // }
-// need to finish concat both arrays into one array and join it for a string.
+
 
 function titleCase (str) {
     let titleCaseArray = str.split(' ');
