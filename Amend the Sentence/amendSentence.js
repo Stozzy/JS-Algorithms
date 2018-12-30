@@ -8,9 +8,9 @@ function amendSentance (str) {
         }
     }
  
-    strArray = strArray.join("").trim();
+    amendedString = strArray.join("").trim();
 
-    return strArray;
+    return amendedString;
 }
 
 console.log(amendSentance('AllOfYourBaseAreBelongToUs'));
