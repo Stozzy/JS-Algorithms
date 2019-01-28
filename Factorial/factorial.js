@@ -1,9 +1,8 @@
 function factorial (num) {
-    let product = 1;
-    for (let i = 1; i <= num; i++) {
-        product *= i;
-    }
-    return product;
+  if (num === 0) {
+    return 1;
+  }
+  return num * factorialize(num - 1);
 }
 
 console.log(factorial(5));
