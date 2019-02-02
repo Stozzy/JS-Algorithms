@@ -1,13 +1,14 @@
+// After watching a solution I realized I did not fully understand split() method completely:
 
-function theLargestWord(str) {
-    let cleanUpArray = str.replace(/[\W_]/g, ' ').split(' ');
-    let longestWord = '';
+function longestWordInString (str) {
+    let longestLength = 0;
+    let strArray = str.split(' ');
 
-    cleanUpArray.forEach((word) => {
-        longestWord = word.length > longestWord.length ? word : longestWord;
-    })
-    
-    return longestWord;
+    for (let i = 0; i < strArray.length; i++) {
+        if (longestLength < strArray[i].length) {
+            longestLength = strArray[i].length;
+        }
+    // Tenary operators to elminate the if stmt as it's a simple conditional check
+    }
+    return longestLength;
 }
-
-console.log(theLargestWord('All of your base, are belong to us!'));
